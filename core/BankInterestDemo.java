@@ -32,8 +32,8 @@ public class BankInterestDemo {
     public static void main(String[] args) {
         System.out.println("================ Bank Interest Calculation ================");
         
-        Bank holder1 = new Bank("Vaishnavi Desai", 50000.0, 2.0);
-        Bank holder2 = new Bank("Harry Potter", 80000.0, 3.0);
+        Bank holder1 = new Bank("Vaishnavi Desai", 100000.0, 2.0);
+        Bank holder2 = new Bank("Harry Potter", 30000.0, 3.0);
 
         System.out.println("=============== Initial Interest Calculations ===============");
         System.out.println("Current Interest Rate : " + Bank.interestRate + "% per annum\n");

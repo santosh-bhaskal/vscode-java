@@ -53,8 +53,12 @@ public class MultilevelEmployeeDemo {
     public static void main(String[] args) {
         System.out.println("================ Multilevel Inheritance (Person -> Employee -> Manager) ================");
 
-        System.out.println("=============== Manager Details ===============");
-        Manager mgr = new Manager("Vaishnavi Desai", 35, 5001, 95000.0, "Engineering & Technology", 25000.0);
-        mgr.displayManager();
+        System.out.println("=============== Senior Manager Details (Vaishnavi Desai) ===============");
+        Manager mgr1 = new Manager("Vaishnavi Desai", 35, 5001, 72000.0, "Computer Science and Engineering", 12000.0);
+        mgr1.displayManager();
+
+        System.out.println("=============== Assistant Manager Details (Harry Potter) ===============");
+        Manager mgr2 = new Manager("Harry Potter", 28, 5002, 60000.0, "Operations & Support", 10000.0);
+        mgr2.displayManager();
     }
 }

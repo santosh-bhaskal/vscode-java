@@ -38,7 +38,8 @@ public class InsufficientBalanceDemo {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("================ Custom Exception: InsufficientBalanceException ================");
-        BankAccount acc = new BankAccount("SB-78945612", 5000.0);
+        System.out.println("Account Holder : Vaishnavi Desai");
+        BankAccount acc = new BankAccount("SB-78945612", 50000.0);
         acc.displayAccount();
 
         System.out.print("\nEnter amount to withdraw: Rs. ");

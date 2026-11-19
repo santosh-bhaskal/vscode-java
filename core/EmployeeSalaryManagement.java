@@ -31,12 +31,12 @@ public class EmployeeSalaryManagement {
         Employee.displayCompanyName();
         System.out.println();
 
-        System.out.println("=============== Details of First Employee ===============");
-        Employee e1 = new Employee(101, "Vaishnavi Desai", 65000.0);
+        System.out.println("=============== Details of First Employee (Vaishnavi Desai - Top Salary) ===============");
+        Employee e1 = new Employee(101, "Vaishnavi Desai", 50000.0);
         e1.displayDetails();
 
-        System.out.println("=============== Details of Second Employee ===============");
-        Employee e2 = new Employee(102, "Harry Potter", 72000.0);
+        System.out.println("=============== Details of Second Employee (Harry Potter) ===============");
+        Employee e2 = new Employee(102, "Harry Potter", 35000.0);
         e2.displayDetails();
     }
 }

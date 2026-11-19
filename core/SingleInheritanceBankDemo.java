@@ -37,7 +37,7 @@ public class SingleInheritanceBankDemo {
         System.out.println("================ Single Inheritance (BankAccount -> SavingsAccount) ================");
 
         System.out.println("=============== Account 1 ===============");
-        SavingsAccount sa1 = new SavingsAccount("SBIN000123456", 25000.0, 4.0);
+        SavingsAccount sa1 = new SavingsAccount("SBIN000123456", 80000.0, 4.0);
         sa1.calculateAndDisplayInterest(2.0);
 
         System.out.println("=============== Account 2 ===============");
